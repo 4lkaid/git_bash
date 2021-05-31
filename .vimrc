@@ -51,8 +51,8 @@ noremap tq :tabclose<CR>
 vnoremap Y "+y
 
 call plug#begin('~/.vim/plugged')
-Plug '4lkaid/vim-deus'
-Plug 'itchyny/lightline.vim'
+Plug 'https://hub.fastgit.org/ajmwagar/vim-deus'
+Plug 'https://hub.fastgit.org/itchyny/lightline.vim'
 call plug#end()
 
 " === vim-deus
